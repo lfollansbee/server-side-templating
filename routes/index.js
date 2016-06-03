@@ -52,7 +52,7 @@ router.get('/how-to-put-skis-on/keep-going/last-steps', function(req, res){
     title: "Final Steps",
     home: "/",
     back:"/how-to-put-skis-on/keep-going",
-    pic:"https://media.giphy.com/media/xTcnSQYEkDRNu4vXAk/giphy.gif",
+    pic:"http://stream1.gifsoup.com/view5/3491052/ski-crash-o.gif",
     moreInfo: "http://www.mechanicsofsport.com/skiing/how_to_ski/skis_on.html"
   })
 })
