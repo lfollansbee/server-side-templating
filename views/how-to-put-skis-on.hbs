@@ -1,0 +1,27 @@
+<h1>{{title}}</h1>
+<ul>
+  {{#each steps}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+{{#if home}}
+  <a href="{{home}}">Home</a>
+{{/if}}
+
+
+{{#if back}}
+  <a href="{{back}}">Back</a>
+{{/if}}
+
+{{#if next}}
+  <a href="{{next}}">Keep Going</a>
+{{/if}}
+
+{{#if moreInfo}}
+  <br><a href="{{moreInfo}}">Further Instructions</a>
+{{/if}}
+
+{{#if pic}}
+  <br><img src={{pic}}>
+{{/if}}
